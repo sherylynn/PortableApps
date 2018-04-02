@@ -4,6 +4,10 @@ Contain NodeJSPortable GitPortable or PortableGit
 
 需要手动下载PortablGit放在目录下
 
+或者手动安装GitPortable和gVimPortable
+
+终端中install_vim.bat 执行安装vim环境
+
 ## System Requirements
 
 * Microsoft Windows 8, 7, Vista or XP.
