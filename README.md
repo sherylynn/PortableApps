@@ -1,10 +1,6 @@
-# NodeJS Portable
+# Dev Portable
 
-NodeJS Portable is the NodeJS JavaScript runtime packaged with a
-PortableApps.com launcher as a portable app, so you can develop NodeJS
-applications on your iPod, USB flash drive, portable hard drive, etc. It has all
-the same features as NodeJS, plus, it leaves no personal information behind on
-the machine you run it on, so you can take it with you wherever you go.
+Contain NodeJSPortable GitPortable
 
 ## System Requirements
 
@@ -24,3 +20,4 @@ the machine you run it on, so you can take it with you wherever you go.
  [2]: https://nodejs.org
  [3]: https://raw.githubusercontent.com/garethflowers/nodejs-portable/master/LICENSE
  [4]: https://raw.githubusercontent.com/nodejs/node/master/LICENSE
+ [5]: https://raw.githubusercontent.com/sherylynn/PortableApps/master/LICENSE
