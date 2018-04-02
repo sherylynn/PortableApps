@@ -1,4 +1,10 @@
-NodeJSPortable/Data
+NodeJSPortable/Data/vimcode
+NodeJSPortable/Data/_*
+NodeJSPortable/Data/node-cache
+NodeJSPortable/Data/node-global
+NodeJSPortable/Data/.*
+!NodeJSPortable/Data/.gitconfig
+NodeJSPortable/Data/.Microsoft
 *.com
 gVimPortable
 PortableGit
