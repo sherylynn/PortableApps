@@ -1,3 +1,4 @@
-cache = ${PAL:DataDir}\npm_cache
-prefix = ${PAL:DataDir}
+cache = ${PAL:DataDir}\node-cache
+prefix = ${PAL:DataDir}\node-global
+registry=https://registry.npm.taobao.org/
 userconfig = ${PAL:DataDir}\.npmrc

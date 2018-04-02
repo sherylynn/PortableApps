@@ -5,7 +5,7 @@ title NodeJS
 cls
 echo.
 echo Node
-node --version
+::node --version
 echo.
 
-cmd /k
+cmd /k "cd /"
