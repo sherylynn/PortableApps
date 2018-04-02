@@ -1,6 +1,8 @@
 # Dev Portable
 
-Contain NodeJSPortable GitPortable
+Contain NodeJSPortable GitPortable or PortableGit
+
+需要手动下载PortablGit放在目录下
 
 ## System Requirements
 
