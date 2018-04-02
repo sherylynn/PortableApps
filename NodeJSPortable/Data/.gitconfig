@@ -1,0 +1,16 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[user]
+	name = sherylynn
+[user]
+	email = 352281674@qq.com
+[credential]
+	helper = wincred
+[http]
+	proxy = http://127.0.0.1:8087
+[winUpdater]
+	recentlySeenVersion = 2.16.3.windows.1
