@@ -7,6 +7,8 @@ setlocal EnableDelayedExpansion
 
 ::@if not exist "%HOME%" @set HOME=%HOMEDRIVE%%HOMEPATH%
 ::@if not exist "%HOME%" @set HOME=%USERPROFILE%
+@set GIT_HOME=%~d0\PortableApps\PortableGit
+@set PATH=%GIT_HOME%\cmd;%GIT_HOME%\mingw32\bin;%GIT_HOME%\usr\bin;%PATH%
 @if not exist "%HOME%" @set HOME=%~d0\PortableApps\NodeJSPortable\Data
 @set APP_PATH=%HOME%\vimcode
 IF NOT EXIST "%APP_PATH%" (
