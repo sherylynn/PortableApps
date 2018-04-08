@@ -5,6 +5,7 @@ NodeJSPortable/Data/node-global
 NodeJSPortable/Data/.*
 !NodeJSPortable/Data/.gitconfig
 NodeJSPortable/Data/.Microsoft
+NodeJSPortable/Data/settings/NodeJSPortable/Settings.ini
 *.com
 gVimPortable
 PortableGit
