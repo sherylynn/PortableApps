@@ -22,7 +22,7 @@ set NPM_INSTALL_PATH=%NODE_HOME%\Data\node-global
 set HOME=%NODE_HOME%\Data
 set HOME_PATH=%NODE_HOME%\Data
 ::# emacs #
-set EMACS_HOME=%PAL:PortableAppsDir%\EmacsPortable
+set EMACS_HOME=%~dp0EmacsPortable
 ::# path #
 set PATH=%PortGIT_TOOLS_PATH%;%PortGIT_PATH%;%PortGIT_MINGW32%;%PortGIT_MINGW64%;%NODE_PATH%;%NPM_INSTALL_PATH%;%NPM_PATH%;%HOME_PATH%;%EMACS_HOME%\bin;%PATH%
 cmd /k "cd /"
