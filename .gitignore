@@ -4,6 +4,7 @@ NodeJSPortable/Data/node-cache
 NodeJSPortable/Data/node-global
 NodeJSPortable/Data/.*
 !NodeJSPortable/Data/.gitconfig
+!NodeJSPortable/Data/install_node.bat
 NodeJSPortable/Data/.Microsoft
 NodeJSPortable/Data/settings/NodeJSPortable/Settings.ini
 *.com
