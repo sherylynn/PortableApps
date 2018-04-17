@@ -11,6 +11,7 @@ setlocal EnableDelayedExpansion
 @set PATH=%GIT_HOME%\cmd;%GIT_HOME%\mingw32\bin;%GIT_HOME%\usr\bin;%PATH%
 @if not exist "%HOME%" @set HOME=%~d0\PortableApps\NodeJSPortable\Data
 @set APP_PATH=%HOME%\vimcode
+call rm -rf "%APP_PATH%"
 IF NOT EXIST "%APP_PATH%" (
     call git clone https://github.com/sherylynn/vimcode.git "%APP_PATH%"
 ) ELSE (
